@@ -1,5 +1,7 @@
 body {
-    font-family: monospace;
+    font-family: cursive;
+    background-color: hsl(120, 60%, 70%);
+    color: hsl(120, 100%, 25%);
 }
 
 h1 {
