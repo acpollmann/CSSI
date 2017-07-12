@@ -1,6 +1,5 @@
 body {
     font-family: cursive;
-    background-color: green; 
 }
 
 h1 {
@@ -18,3 +17,4 @@ p {
 ol {
   list-style-type: upper-roman;
 }
+background-color: green;
