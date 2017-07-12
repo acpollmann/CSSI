@@ -1,20 +1,39 @@
 body {
-    font-family: fantasy;
-    background-color: green;
+    font-family: ;
+    background-color: #9E0B37;
 }
 
 h1 {
-    color: ;
+    color: navy;
+    font-weight: bold
+    text-align: center;
+     text-shadow: 2px 2px 8px #9E0B37;
+
 }
 
 h2 {
-    color: purple; font-weight: bold;
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+
 }
 
 p {
     text-indent: 3cm;
 }
 
-ol {
+
+<style>
+  div {
+    height: 150px;
+    width: 75px;
+    background-color: navy;
+    color: white;
+  }
+</style>
+
+<div>
+    ol {
   list-style-type: upper-roman;
 }
+</div>
