@@ -1,7 +1,22 @@
 body {
     font-family: ;
     background-color: #9E0B37;
+    article {
+          position: relative;
+          z-index: 1;
+        }
 
+    article::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: .4;
+          z-index: -1;
+          background: url("https://s-media-cache-ak0.pinimg.com/736x/25/54/b7/2554b7de2b6bbaa8ecc1abd721aae730--floral-pattern-print-pattern-flower.jpg");
+        }
 }
 boarder {
     padding: 5px;
