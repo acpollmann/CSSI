@@ -1,6 +1,14 @@
 body {
     font-family: ;
     background-color: #9E0B37;
+
+}
+boarder {
+    padding: 5px;
+    margin: 10px;
+    border-color: navy;
+    border-width: 4px;.
+    border-style: outset;
 }
 
 h1 {
