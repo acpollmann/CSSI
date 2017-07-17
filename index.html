@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
+  <div>
   <head>
     <title> Amy Pollmann's Profile </title>
     <link rel="stylesheet" href="style.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </head>
+
+
   <body>
     <h1> Amy Pollmann </h1>
-
     <img src="http://www.cambridgebears.com/sports/wsoc/2016-17/bios/2017Varsity_AmyPollmann.jpg?max_width=160&max_height=210" width="140" height="190" alt="Photo of Amy Pollmann">
 
 
@@ -33,5 +36,20 @@
         <li>Inception</li>
       </ol>
 
+
+
+    <form name="userComments">
+       <label>Leave a Comment: </label>
+       <input type="text" id="comment"/>
+       <input type="button" id="submit_button" value="Post Comment"/>
+          <div>
+              <ul>
+                <output type = "text" id = "result"/>
+              </ul>
+          </div>
+    </form>
+
+
     </body>
+    </div>
 </html>

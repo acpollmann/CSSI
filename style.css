@@ -1,62 +1,46 @@
-body {
-    font-family: ;
-    background-color: #9E0B37;
-    article {
-          position: relative;
-          z-index: 1;
-        }
+html {
+  padding: 50px;
+  border: 7px;
+  border-color: #9E0B37;
 
-    article::before {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          opacity: .4;
-          z-index: -1;
-          background: url("https://s-media-cache-ak0.pinimg.com/736x/25/54/b7/2554b7de2b6bbaa8ecc1abd721aae730--floral-pattern-print-pattern-flower.jpg");
-        }
 }
-boarder {
-    padding: 5px;
-    margin: 10px;
+
+body {
+    font-family: serif;
+    background-color: #9E0B37;
+    background-image: url(http://www.powerpointhintergrund.com/uploads/2017/05/home-simple-backgrounds-simple-galaxy-s4-background-177-28.jpeg);
+    color: navy;
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+    list-style-type: upper-roman;
+  }
+
+img {
+    border: 7px;
     border-color: navy;
-    border-width: 4px;.
     border-style: outset;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
 
 h1 {
     color: navy;
-    font-weight: bold
+    font-weight: bold;
     text-align: center;
-     text-shadow: 2px 2px 8px #9E0B37;
+    text-shadow: 2px 2px 8px #9E0B37;
 
 }
 
 h2 {
-    color: navy;
-    font-weight: bold;
-    text-align: center;
+  color: navy;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 8px #9E0B37;
 
 }
 
 p {
     text-indent: 3cm;
 }
-
-
-<style>
-  div {
-    height: 150px;
-    width: 75px;
-    background-color: navy;
-    color: white;
-  }
-</style>
-
-<div>
-    ol {
-  list-style-type: upper-roman;
-}
-</div>
